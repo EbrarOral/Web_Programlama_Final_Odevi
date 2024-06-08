@@ -1,0 +1,57 @@
+body{
+    background-color: #F2E8DF;
+}
+/* Blog bölümündeki stünların Ortak Özellikleri */
+
+h1,h3{
+    text-align: center;
+}
+.sutun{
+    background-color: #F2C6C2;
+    color: black;
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex; /* Flexbox kullanımı */
+    flex-direction: column; /* Yazıları dikeyde hizalamak için */
+    justify-content: center; /* İçeriği dikeyde ortala */
+    align-items: center; /* İçeriği yatayda ortala */
+}
+
+/*blog kısmındaki divlerin ortak özellikleri*/
+.container {
+    display: flex; /* Flexbox düzeni */
+    flex-wrap: wrap; /* İçerik sığmazsa satırı kır */
+    justify-content: center; /* İçeriği yatayda ortala */
+}
+
+form{
+    background-color: #F2C6C2;
+    color: black;
+    width: 350px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex; /* Flexbox kullanımı */
+    flex-direction: column; /* Yazıları dikeyde hizalamak için */
+    justify-content: center; /* İçeriği dikeyde ortala */
+    align-items: center; /* İçeriği yatayda ortala */
+}
+textarea{
+    width: 200px;
+    height: 500px;
+}
+
+footer {
+    background-color: #F28585;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    position: relative; /* Sabit konumdan çıkarıldı */
+    bottom: 0;
+    width: 100%;
+}
+
